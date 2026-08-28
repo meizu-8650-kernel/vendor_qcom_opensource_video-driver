@@ -11,7 +11,6 @@ def define_target_modules():
             registry = video_driver_modules,
             modules = [
                 "msm_video",
-                "video",
             ],
         )
 
@@ -22,7 +21,6 @@ def define_target_modules():
             registry = video_driver_modules,
             modules = [
                 "msm_video",
-                "video",
             ],
             lunch_target = lt,
         )
